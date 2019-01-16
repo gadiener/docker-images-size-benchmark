@@ -11,7 +11,7 @@ docker build -t simple-server -f ${DOCKERFILE_NAME} .
 ### Run image
 
 ```bash
-docker run -p 3000:3000 simple-server & open http://localhost:3000
+docker run -d -p 3000:3000 simple-server && open http://localhost:3000
 ```
 
 ## Size benchmark
