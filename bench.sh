@@ -4,7 +4,7 @@ set -e
 
 source functions.sh
 
-IMAGES='golang distroless alpine busybox scratch'
+IMAGES='golang debian distroless alpine busybox scratch'
 TYPE='sizes'
 IMAGE_PREPEND='zgllbmvylwjlbm'
 DEPENDENCIES='xargs docker bc grep cut'

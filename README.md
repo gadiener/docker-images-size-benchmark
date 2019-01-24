@@ -27,6 +27,13 @@ open http://localhost:3000 && docker run -p 3000:3000 simple-server
 - Total layers without empty ones: 8
 - Total layers: 16
 
+**Multi stage build from Debian image `Dockerfile-debian`:**
+
+- Build time: 2637.742 microseconds
+- Total size: 107MB
+- Total layers without empty ones: 2
+- Total layers: 5
+
 **Multi stage build from Google distroless image `Dockerfile-distroless`:**
 
 - Build time: 3709.062 microseconds
