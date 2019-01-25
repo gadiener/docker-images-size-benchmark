@@ -35,7 +35,7 @@ for IMAGE in ${IMAGES}; do
     DIFF=$(echo "scale=3; (${END} - ${START})*1000/1" | bc )
     T_LAYERS=$(docker history --format='{{.Size}}' ${IMAGE_PREPEND}-${IMAGE} | grep '' -c)
     S_LAYERS=$(docker history --format='{{.Size}}' ${IMAGE_PREPEND}-${IMAGE} | grep -v '0B' -c)
-    SIZE=$(docker image ls --format='{{.Repository}} {{ .Size}}' | grep ${IMAGE_PREPEND}-${IMAGE} | cut -d " " -f 2)
+    SIZE=$(docker images ${IMAGE_PREPEND}-${IMAGE} --format "{{.Size}}")
 
     success "Build time: ${DIFF} microseconds"
     success "Total size: ${SIZE}"

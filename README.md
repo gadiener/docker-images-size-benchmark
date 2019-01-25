@@ -22,42 +22,42 @@ open http://localhost:3000 && docker run -p 3000:3000 simple-server
 
 **Normal build from Golang image `Dockerfile-golang`:**
 
-- Build time: 3105.837 microseconds
-- Total size: 781MB
+- Build time: 2114.989 microseconds
+- Total size: 823MB
 - Total layers without empty ones: 8
 - Total layers: 16
 
 **Multi stage build from Debian image `Dockerfile-debian`:**
 
-- Build time: 2637.742 microseconds
+- Build time: 2620.073 microseconds
 - Total size: 107MB
 - Total layers without empty ones: 2
 - Total layers: 5
 
 **Multi stage build from Google distroless image `Dockerfile-distroless`:**
 
-- Build time: 3709.062 microseconds
+- Build time: 2399.337 microseconds
 - Total size: 23.4MB
 - Total layers without empty ones: 3
 - Total layers: 5
 
 **Multi stage build from Alpine image `Dockerfile-alpine`:**
 
-- Build time: 3688.356 microseconds
+- Build time: 2553.204 microseconds
 - Total size: 10.8MB
 - Total layers without empty ones: 2
 - Total layers: 5
 
 **Multi stage build from Alpine image `Dockerfile-busybox`:**
 
-- Build time: 16008.799 microseconds
+- Build time: 10399.718 microseconds
 - Total size: 7.7MB
 - Total layers without empty ones: 2
 - Total layers: 5
 
 **Multi stage build from scratch image `Dockerfile-scratch`:**
 
-- Build time: 14977.498 microseconds
+- Build time: 10307.420 microseconds
 - Total size: 6.5MB
 - Total layers without empty ones: 1
 - Total layers: 3
