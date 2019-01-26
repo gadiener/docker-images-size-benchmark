@@ -48,7 +48,7 @@ open http://localhost:3000 && docker run -p 3000:3000 simple-server
 - Total layers without empty ones: 2
 - Total layers: 5
 
-**Multi stage build from Alpine image `Dockerfile-busybox`:**
+**Multi stage build from Busybox image `Dockerfile-busybox`:**
 
 - Build time: 10399.718 microseconds
 - Total size: 7.7MB
