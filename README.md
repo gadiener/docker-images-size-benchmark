@@ -1,5 +1,7 @@
 # Docker images size benchmark
 
+Comparison between various images containing the same Golang application.
+
 ## How to build a smaller Docker image
 
 When you're building a Docker image it's important to keep the size under control. Having small images means ensuring faster deployment and transfers.
