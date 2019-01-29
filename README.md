@@ -7,7 +7,7 @@ Comparison between various images containing the same Golang application.
 When you're building a Docker image it's important to keep the size under control. Having small images means ensuring faster deployment and transfers.
 
 Repository related to the article:
-[How to build a smaller Docker image](https://medium.com/@gdiener/how-to-build-a-smaller-docker-image-76779e18d48a)
+[How to build a smaller Docker image](https://medium.com/@gdiener/how-to-build-a-smaller-docker-image-76779e18d48a).
 
 ## Build single image
 
