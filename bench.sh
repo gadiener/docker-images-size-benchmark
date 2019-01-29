@@ -39,7 +39,7 @@ for IMAGE in ${IMAGES}; do
 
     success "Build time: ${DIFF} microseconds"
     success "Total size: ${SIZE}"
-    success "Total layers without empty ones: ${S_LAYERS}"
+    success "Total layers filled: ${S_LAYERS}"
     success "Total layers: ${T_LAYERS}"
     verbose success "Layers details:"
     verbose eol
