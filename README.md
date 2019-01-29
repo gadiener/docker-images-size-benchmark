@@ -2,7 +2,7 @@
 
 ## How to build a smaller Docker image
 
-### When you're building a Docker image it's important to keep the size under control. Having small images means ensuring faster deployment and transfers.
+When you're building a Docker image it's important to keep the size under control. Having small images means ensuring faster deployment and transfers.
 
 Repository related to the article:
 [How to build a smaller Docker image](https://medium.com/@gdiener/how-to-build-a-smaller-docker-image-76779e18d48a)
